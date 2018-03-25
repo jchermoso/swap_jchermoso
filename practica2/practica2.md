@@ -1,3 +1,6 @@
+# Mario Chaves Caballero
+# Juan Carlos Hermoso Quesada
+
 # Práctica 2. Clonar la información de un sitio web
 
 ## Instalar la herramienta rsync
