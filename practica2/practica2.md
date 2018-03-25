@@ -4,9 +4,10 @@
 
 Una vez instalada la herramienta rsync con el comando **sudo apt-get install rsync** y nombrado como propietario de la carpeta **/var/www** al usuario sin privilegios mediante **sudo chown jchermoso:jchermoso -R /var/www** pasamos a probar el funcionamiento de rsync.
 
+## Clonación con rsync
+
 ![imagen](https://github.com/jchermoso/swap_jchermoso/blob/master/practica2/Captura%20de%20pantalla%20de%202018-03-14%2012-33-07.png)
 
-## Clonación con rsync
 Realizamos la clonación de la carpeta **/var/www** de la máquina 1 (**192.168.56.101**) en la máquina 2, mediante la contraseña de la máquina 1. Para comprobar que la clonación ha concluido de forma correcta, hacemos **ls -la /var/www**, donde podemos corroborar que la clonación se ha realizado correctamente debido a que ambas carpetas tienen los mismos permisos y el mismo dueño.
 
 ![imagen](https://github.com/jchermoso/swap_jchermoso/blob/master/practica2/Captura%20de%20pantalla%20de%202018-03-14%2012-48-36.png)
